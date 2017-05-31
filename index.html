@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<head>
+
+<script type="text/javascript">
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-78400808-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<!-- for Facebook -->          
+<meta property="og:title" content="Monsoon stories from Wionews.com" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="http://i.imgur.com/eWlme8F.png" />
+<meta property="og:description" content="Want to find out what impact the monsoon is having on India? Is the country having a good monsoon? Find the answers here." />
+
+<!-- for Twitter -->          
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Monsoon stories from Wionews.com" />
+<meta name="twitter:description" content="Want to find out what impact the monsoon is having on India? Is the country having a good monsoon? Find the answers here." />
+<meta name="twitter:image" content="http://i.imgur.com/eWlme8F.png" />
+
+<style>
+
+body{
+  background: #FDD928;
+  max-width: 1150px;
+  margin: 0px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+  height:20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#container{
+ /* position: relative; */
+  overflow: hidden;
+}
+
+#map{
+  float:left;
+  margin-left:5px;
+  margin-right:15px;
+  width:700px;
+}
+
+#widget{
+  height: 500px;
+  width: 320px;
+  float: left;
+  overflow:hidden;
+  border:1px solid black;
+  margin:0 auto;
+}
+
+#credits{
+    margin-top: 10px;
+    clear:both;
+  }
+
+iframe{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  border:none;
+}
+
+a { 
+  color: #000000;
+}
+
+
+@media (max-width: 1125px)  {
+
+#map{
+    float:none;
+    margin-right: 0;
+    width:auto;
+    }
+
+
+/*
+#widget{
+  }
+*/
+
+}
+
+/*
+img{
+   width:100%;
+   //also delete viewbox attributes
+}
+
+
+
+
+*/
+</style>
+
+</head>
+
+<body>
+
+<center><div id="header">MONSOON STORY HUB (BETA)</div></center>
+
+<div class="wrapper">
+
+  <div id='map'><img src="graphics/monsoon_progress.svg"></div>
+
+  <div id='widget'><iframe scrolling="no" 
+  src="https://feed.mikle.com/widget/v2/30457/"></iframe></div>
+</div>
+
+
+<div id="credits"><center><h3 id='source'><center><a href="https://www.wionews.com"><img src="graphics/wion_horizontal.png"></a></center>
+</div>
+
+</body>
+
+</html>
